@@ -1,0 +1,17 @@
+<div class="aside-group-block">
+  <div class="aside-account-block">
+    <app-account></app-account>
+  </div>
+
+
+  <div class="chats-group-block">
+    <app-aside-group-item *ngFor="let group of chatGoups"
+    [name]="group.name"
+    [id]="group.id"
+    (click)="active(group.id)">
+
+    </app-aside-group-item>
+  </div>
+
+
+</div>

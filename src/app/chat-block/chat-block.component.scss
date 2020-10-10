@@ -1,0 +1,55 @@
+.chat {
+  display: block;
+  height: 75px;
+  width: 100%;
+  background-color: #F6F6F6;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.chat:hover {
+  background-color: #6ebce2;
+  color: #3C3F41;
+}
+
+.chat-item {
+  padding: 6px;
+
+}
+
+.parent{
+  display: flex;
+  height: 100%;
+}
+.child {
+  width: 22%;
+}
+.child-active {
+  flex-shrink: 1;
+  width: 55%;
+}
+
+.chat-item-header {
+  color: #3C3F41;
+  font-size: 16px;
+  font-weight: 500;
+}
+.chat-item-block {
+  margin-top: 5px;
+  line-height: 14px;
+}
+.chat-item-block-text {
+  line-height: 1px;
+  color: #676869;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.chat-item-time{
+  text-align: end;
+}
+
+.chat-item-time-text {
+  color: #676869;
+  font-size: 11px;
+}

@@ -1,0 +1,19 @@
+.navigation-block {
+  display: block;
+  height: 40px;
+  width: 100%;
+  border-bottom: 1px solid #E9E9E9;
+}
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 50px;
+  line-height: 40px;
+}
+
+ul.navigation-menu  > li {
+  display: inline;
+  list-style: none;
+
+}

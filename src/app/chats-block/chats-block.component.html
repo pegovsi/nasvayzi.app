@@ -1,0 +1,10 @@
+<div>
+  <app-chat-block *ngFor="let chat of chats"
+  [id]="chat.id"
+  [name]="chat.name"
+  [image]="chat.image"
+  [message]="chat.message"
+  [date]="chat.date">
+
+  </app-chat-block>
+</div>
