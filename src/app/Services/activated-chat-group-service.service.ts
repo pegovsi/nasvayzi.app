@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Subject } from 'rxjs';
-import {ActivatedChatGroup} from './Models/Notifications/activatedChatGroup';
-import {ChatGroup} from './Models/chats/chatGroup';
+import {ActivatedChatGroup} from '../Models/Notifications/activatedChatGroup';
+import {ChatGroup} from '../Models/chats/chatGroup';
 
 @Injectable({
   providedIn: 'root'

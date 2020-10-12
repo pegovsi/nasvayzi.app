@@ -1,6 +1,6 @@
 import {Component, OnDestroy, OnInit} from '@angular/core';
 import {ChatGroup} from '../../Models/chats/chatGroup';
-import {ActivatedChatGroupServiceService} from '../../activated-chat-group-service.service';
+import {ActivatedChatGroupServiceService} from '../../Services/activated-chat-group-service.service';
 import {Subscription} from 'rxjs';
 
 @Component({
